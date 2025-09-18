@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    height: 520px;
+    width: 520px;
+    background-color: #000;
+    gap: 10px;
+    grid-template-columns: 55px 60px 60px 125px 60px 60px 40px;
+    grid-template-rows: 55px 125px 125px 55px 55px 20px 25px;
+    border: 10px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.one {
+    background-color: white;
+    grid-column: span 2;
+}
+
+.two {
+    background-color: white;
+    grid-column: span 2;
+}
+
+.three {
+    grid-column: span 2;
+    background-color: yellow;
+}
+
+.four {
+    grid-row: span 4;
+    background-color: white;
+}
+
+.five {
+    background-color: white;
+}
+
+.six {
+    background-color: red;
+    grid-column: span 3;
+    grid-row: span 2;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 40px;    
+}
+
+.seven {
+    grid-column: span 2;
+    background-color: yellow;
+}
+
+.eight {
+    background-color: white;
+    grid-row: span 2;
+}
+
+.nine {
+    background-color: white;
+}
+
+.ten {
+    background-color: white;
+}
+
+.eleven {
+    grid-row: span 2;
+    grid-column: span 2;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.twelve {
+    background-color: white;
+}
+
+.thirteen {
+    background-color: white;
+    grid-column: span 2;
+}
+
+.fourteen {
+    background-color: yellow;
+    grid-row: span 3;
+}
+
+.fifteen {
+    background-color: white;
+}
+
+.sixteen {
+    background-color: darkblue;
+    grid-column: span 2;
+    grid-row: span 2;
+    color: white;
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 20px;
+}
+
+.seventeen {
+    background-color: red;
+    grid-row: span 3;
+}
+
+.eighteen {
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.twenty {
+    background-color: white;
+    grid-column: span 3;
+}
